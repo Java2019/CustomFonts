@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
 
         TextView textView = (TextView)findViewById(R.id.text);
         Typeface custom_font = Typeface.createFromAsset(getAssets(),
-                "font/Painter_PERSONAL_USE_ONLY.ttf");
+                "font/myfont.ttf");
         textView.setTypeface(custom_font);
     }
 
